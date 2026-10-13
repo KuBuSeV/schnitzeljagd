@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Die Plastikdetektive – Mission Plastikfreier Stadthafen</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<link rel="stylesheet" href="../style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js" defer></script>
+</head>
+<body class="pending" data-station="1">
+<header><a href="https://plastikfreiestadt.org"><img src="../img/logo.png" alt="Plastikfreie Stadt"></a></header>
+<main>
+<div class="progress" aria-label="Fortschritt"></div>
+<div class="card quiz" data-type="multi">
+  <div class="kicker">Station 1 · Blaue Kr&#228;ne</div>
+  <h1>Die Plastikdetektive</h1>
+  <p class="hint-multi">Thema: Einwegplastik erkennen</p>
+  <p>Ihr seid heute die Plastikdetektive der Initiative Plastikfreie Stadt. Eure erste Mission: Herausfinden, welches Plastik wir eigentlich vermeiden k&#246;nnen.</p>
+  <p><strong>Welche drei Gegenst&#228;nde werden typischerweise nur einmal verwendet, obwohl es wiederverwendbare Alternativen gibt?</strong></p>
+  <p class="hint-multi">Mehrere Antworten möglich – antippen zum Auswählen.</p>
+  <div class="answers">
+    <button type="button" aria-pressed="false" data-right>Einweg-Kaffeebecher mit Kunststoffbeschichtung</button>
+    <button type="button" aria-pressed="false">Trinkflasche aus Edelstahl</button>
+    <button type="button" aria-pressed="false" data-right>Plastikbesteck zum Wegwerfen</button>
+    <button type="button" aria-pressed="false">Brotdose</button>
+    <button type="button" aria-pressed="false" data-right>Einweg-Plastikt&#252;te</button>
+    <button type="button" aria-pressed="false">Mehrwegbecher</button>
+  </div>
+  <button type="button" class="check">Antwort prüfen</button>
+  <div class="feedback" aria-live="polite"></div>
+</div>
+<div class="card challenge reveal">
+<h2>Challenge: Plastik-Safari (3 Minuten)</h2>
+<p>Schaut euch in eurer Umgebung um und entdeckt mindestens <strong>drei Situationen</strong>, in denen Einwegplastik entstehen könnte.</p>
+<p>Nennt für jede Situation eine bessere Lösung – zum Beispiel ersetzt eine mitgebrachte Trinkflasche die Einwegflasche.</p>
+</div>
+<div class="card fact reveal">
+  <p class="message">Der beste Plastikm&#252;ll ist der, der &#252;berhaupt nicht entsteht.</p>
+</div>
+<div class="card next reveal" data-weiter>
+  <div class="kicker" style="color:#fff">Weiter zu Station 2</div>
+  <h2>Wo geht's hin?</h2>
+  <p data-noch></p>
+  <p>Folgt der Promenade am Wasser etwa <strong>300 m nach Westen</strong> bis zur <strong>Haedgehalbinsel</strong>. Dort steht ein riesiger Kran: Station 2 wartet am <strong>Fuß des großen Portalkrans</strong>.</p>
+  <div class="map" data-from="54.093040,12.128766" data-to="54.093511,12.124389" data-label="Station 2"></div>
+  <a class="map-btn" href="https://www.google.com/maps/dir/?api=1&amp;origin=54.093040,12.128766&amp;destination=54.093511,12.124389&amp;travelmode=walking" target="_blank" rel="noopener">📍 Fußweg in Google Maps zeigen</a>
+</div>
+<div class="card next finale" data-finale>
+  <div class="kicker" style="color:#fff">Mission erfüllt!</div>
+  <h2>Ihr seid Plastikfrei-Profis des Rostocker Stadthafens 🎉</h2>
+  <p>Alle 5 Stationen geschafft! Hier ist eure Urkunde – speichert sie oder teilt sie mit euren Freunden.</p>
+  <div data-urkunde></div>
+</div>
+<div class="card sign finale" data-finale>
+  <h2>Rostock kann weniger Einweg!</h2>
+  <p>Wir sind die <strong>Initiative Plastikfreie Stadt</strong> des KuBuS e.V. Wir setzen uns dafür ein, dass Plastikmüll gar nicht erst entsteht – mit Mehrwegsystemen, Bildungsarbeit, nachhaltigen Veranstaltungen und Projekten wie ReTeddy.</p>
+  <p><strong>Unsere Vision:</strong> Eine Stadt, in der nachhaltiges Verhalten einfach und selbstverständlich wird.</p>
+  <a class="map-btn" href="https://plastikfreiestadt.org">Mehr über uns</a>
+</div>
+</main>
+<footer>Mission Plastikfreier Stadthafen · <a href="https://plastikfreiestadt.org">Initiative Plastikfreie Stadt</a> des KuBuS e.V.</footer>
+<script src="../jagd.js"></script>
+</body>
+</html>

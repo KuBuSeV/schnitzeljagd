@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Der gro&#223;e Mehrweg-Check – Mission Plastikfreier Stadthafen</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<link rel="stylesheet" href="../style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js" defer></script>
+</head>
+<body class="pending" data-station="2">
+<header><a href="https://plastikfreiestadt.org"><img src="../img/logo.png" alt="Plastikfreie Stadt"></a></header>
+<main>
+<div class="progress" aria-label="Fortschritt"></div>
+<div class="card quiz" data-type="number">
+  <div class="kicker">Station 2 · Gro&#223;er Portalkran</div>
+  <h1>Der gro&#223;e Mehrweg-Check</h1>
+  <p class="hint-multi">Thema: Mehrweg und Pfand</p>
+  <p>Bei einem Fest am Stadthafen werden 500 Getr&#228;nke ausgegeben. Alle G&#228;ste erhalten einen Einwegbecher.</p>
+  <p><strong>Wie viele Becher landen nach einer einzigen Getr&#228;nkerunde potenziell im M&#252;ll? Und wie viele Mehrwegbecher braucht ihr theoretisch, wenn jeder Becher f&#252;nfmal genutzt und zwischendurch gereinigt wird?</strong></p>
+  <div class="answers numbers">
+    <label>Einwegbecher im M&#252;ll<input type="text" inputmode="numeric" pattern="[0-9]*" autocomplete="off" data-answer="500"></label>
+    <label>Ben&#246;tigte Mehrwegbecher<input type="text" inputmode="numeric" pattern="[0-9]*" autocomplete="off" data-answer="100"></label>
+  </div>
+  <button type="button" class="check">Lösung prüfen</button>
+  <div class="feedback" aria-live="polite"></div>
+</div>
+<div class="card challenge reveal">
+<h2>Challenge: Baut ein Mehrwegsystem!</h2>
+<p>Die Spielleitung gibt euch fünf Karten: <em>Getränkestand, Mehrwegbecher, Gast, Rückgabestation, Spülstation</em>.</p>
+<p>Bringt sie in eine sinnvolle Reihenfolge – der Mehrwegbecher soll dabei immer wieder in Umlauf kommen.</p>
+<p><strong>Zusatzfrage:</strong> Warum ist es wichtig, Mehrwegbecher möglichst einfach zurückgeben zu können?</p>
+</div>
+<div class="card fact reveal">
+  <p class="message">Je besser R&#252;ckgabe, Reinigung und Wiederverwendung organisiert sind, desto zuverl&#228;ssiger funktioniert Mehrweg.</p>
+</div>
+<div class="card next reveal" data-weiter>
+  <div class="kicker" style="color:#fff">Weiter zu Station 3</div>
+  <h2>Wo geht's hin?</h2>
+  <p data-noch></p>
+  <p>Lauft die Haedgehalbinsel zurück Richtung Land: etwa <strong>180 m Richtung Südosten</strong>. Station 3 findet ihr am <strong>Toilettencontainer</strong> im Stadthafen.</p>
+  <div class="map" data-from="54.093511,12.124389" data-to="54.092252,12.126087" data-label="Station 3"></div>
+  <a class="map-btn" href="https://www.google.com/maps/dir/?api=1&amp;origin=54.093511,12.124389&amp;destination=54.092252,12.126087&amp;travelmode=walking" target="_blank" rel="noopener">📍 Fußweg in Google Maps zeigen</a>
+</div>
+<div class="card next finale" data-finale>
+  <div class="kicker" style="color:#fff">Mission erfüllt!</div>
+  <h2>Ihr seid Plastikfrei-Profis des Rostocker Stadthafens 🎉</h2>
+  <p>Alle 5 Stationen geschafft! Hier ist eure Urkunde – speichert sie oder teilt sie mit euren Freunden.</p>
+  <div data-urkunde></div>
+</div>
+<div class="card sign finale" data-finale>
+  <h2>Rostock kann weniger Einweg!</h2>
+  <p>Wir sind die <strong>Initiative Plastikfreie Stadt</strong> des KuBuS e.V. Wir setzen uns dafür ein, dass Plastikmüll gar nicht erst entsteht – mit Mehrwegsystemen, Bildungsarbeit, nachhaltigen Veranstaltungen und Projekten wie ReTeddy.</p>
+  <p><strong>Unsere Vision:</strong> Eine Stadt, in der nachhaltiges Verhalten einfach und selbstverständlich wird.</p>
+  <a class="map-btn" href="https://plastikfreiestadt.org">Mehr über uns</a>
+</div>
+</main>
+<footer>Mission Plastikfreier Stadthafen · <a href="https://plastikfreiestadt.org">Initiative Plastikfreie Stadt</a> des KuBuS e.V.</footer>
+<script src="../jagd.js"></script>
+</body>
+</html>
